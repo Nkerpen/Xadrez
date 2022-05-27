@@ -57,7 +57,7 @@
     background-image: url(../img/cavalo.png);
     background-size: 100%;
     position: absolute;
-    animation: L 10s ease;
+    animation: L 10s ease infinite;
 }
 
 @keyframes L{
@@ -66,63 +66,123 @@
         right: 80px;
     }
 
-    10%{
+    4%{
         top: 80px;
         right: 80px;
     }
 
-    20%{
+    8%{
         top: 160px;
         right: 80px;
     }
 
-    25%{
+    12%{
         top: 160px;
         right: 160px;
     }
 
-    30%{
+    16%{
         top: 160px;
         right: 240px;
     }
 
-    35%{
+    20%{
         top: 160px;
         right: 320px;
     }
 
-    40%{
+    24%{
         top: 240px;
         right: 320px;
     }
 
-    45%{
+    28%{
         top: 320px;
         right: 320px;
     }
 
-    50%{
+    32%{
         top: 400px;
         right: 320px;
     }
 
-    60%{
+    36%{
         top: 400px;
         right: 400px;
     }
 
-    65%{
+    40%{
         top: 400px;
         right: 480px;
     }
 
-    70%{
+    44%{
         top: 480px;
         right: 480px;
     }
 
-    100%{
+    48%{
         top: 560px;
         right: 480px;
     }
+    52%{
+        top: 560px;
+        right: 480px;
+    }
+
+    56%{
+        top: 480px;
+        right: 480px;
+    }
+
+    60%{
+        top: 400px;
+        right: 480px;
+    }
+
+    64%{
+        top: 400px;
+        right: 400px;
+    }
+
+    68%{
+        top: 400px;
+        right: 320px;
+    }
+
+    72%{
+        top: 320px;
+        right: 320px;
+    }
+
+    76%{
+        top: 240px;
+        right: 320px;
+    }
+
+    80%{
+        top: 160px;
+        right: 320px;
+    }
+
+    84%{
+        top: 160px;
+        right: 160px;
+    }
+
+    88%{
+        top: 160px;
+        right: 80px;
+    }
+
+    92%{
+        top: 80px;
+        right: 80px;
+    }
+
+    100%{
+        top: 0px;
+        right: 80px;
+    }
+
 }
